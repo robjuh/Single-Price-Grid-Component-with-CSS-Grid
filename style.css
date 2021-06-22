@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+html {
+ font-size: 100%;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    margin: 25px;
+}
+
+.community {
+    background-color: white;
+    padding: 25px;
+}
+
+.community h1 {
+    color: hsl(179, 62%, 43%, 0.7);
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+}
+
+.community h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1rem;  
+}
+
+.community p {
+    color: hsl(218, 22%, 67%);
+    padding: 20px 0;
+    line-height: 2;
+    font-size: 0.90rem; 
+}
+
+.subscription {
+    background-color:hsl(179, 62%, 43%);
+    padding: 25px;
+}
+
+.subscription h1 {
+    font-size: 1rem; 
+    padding-bottom: 25px;
+}
+
+.subscription h2 {
+    padding-bottom: 12.5px;
+}
+
+.month {
+    font-size: 0.90rem; 
+    color:hsl(0, 100%, 100%, 0.7);
+}
+
+.subscription p {
+    padding-bottom: 25px;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.why {
+    background-color:hsl(179, 62%, 43%, 0.7);
+    padding: 25px;
+}
+
+.why h1 {
+    padding-bottom: 25px;
+    font-size: 1rem; 
+}
+
+.why p {
+    font-size: 0.90rem;
+    line-height: 2;
+    color:hsl(0, 100%, 100%, 0.7);
+}
+
+ /*Feel free to remove these styles or customise in your own stylesheet 👍 */
+    .attribution { 
+     font-size: 11px; 
+     text-align: center; 
+     color: hsl(179, 62%, 43%, 0.7);
+}
+ 
+    .attribution a { 
+     color: hsl(71, 73%, 54%); 
+}
+
+@media only screen and (min-width: 625px) {
+    .container  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin: 75px;
+    }
+
+    .community {
+        grid-column: 1 / 4;   
+    }
+}
+
+@media only screen and (min-width: 975px) {
+    .container {
+        margin: 25px;
+    }
+}
+
+
+
+
+
